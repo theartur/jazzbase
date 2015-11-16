@@ -1,8 +1,0 @@
-TROUBLE WITH ASYNC QUEUE?
-Parece mais fácil do que realmente é e depois também parece mais difícil do que realmente é
-
-Existe uma lista de tarefas assíncronas que devem ser cumpridas em ordem
-
-- chamar IO op, returns
-- adicionar op na fila, com callback returns na memória
-- ativar processamento da fila, returns
