@@ -8,8 +8,15 @@
         <script>
             var app = jazzbase("comm");
             
-            app.set("hello", "POP", function () {
-                console.log(arguments);
+            var key = new Date() + " " + Math.random()
+            var data = "@" + Math.random()
+            
+            app.set(key, data, function () {
+                console.log(key + ": ", arguments);
+                
+                app.get(key, function (resp) {
+                    console.log(key + ":: " + resp);
+                });
             });
         </script>
     </body>
