@@ -1,1 +1,1 @@
-require("jazzbase")().listen(1337);
+require("jazzbase/server")(1337);

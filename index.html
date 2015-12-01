@@ -7,18 +7,18 @@
         <script src="node_modules/jazzbase/client.js"></script>
         <script src="node_modules/jazzbase/stress-client-jazzbase.js"></script>
         <script>
-            var app = jazzbase("comm");
+//             var app = jazzbase("comm");
             
-            var key = new Date() + " " + Math.random()
-            var data = "@" + Math.random()
+//             var key = new Date() + " " + Math.random()
+//             var data = "@" + Math.random()
             
-            app.set(key, data, function () {
-                console.log(key + ": ", arguments);
+//             app.set(key, data, function () {
+//                 console.log(key + ": ", arguments);
                 
-                app.get(key, function (resp) {
-                    console.log(key + ":: " + resp);
-                });
-            });
+//                 app.get(key, function (resp) {
+//                     console.log(key + ":: " + resp);
+//                 });
+//             });
         </script>
     </body>
 </html>
